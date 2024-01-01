@@ -117,7 +117,7 @@ h3, .slogan {
   justify-content: center;
   /* padding: 150px 20px; */
   /* Adjust padding to account for the sticky nav */
-  background-image: url('hero.jpg');
+  background-image: url('hero-background.png');
   background-size: cover;
   background-position: center;
   background: transparent;
@@ -142,7 +142,7 @@ h3, .slogan {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url('hero.jpg');
+  background-image: url('hero-background.png');
   background-size: cover;
   background-position: center;
   opacity: 0.5;
