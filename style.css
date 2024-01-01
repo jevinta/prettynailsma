@@ -59,6 +59,12 @@ h3, .slogan {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom-color 0.3s ease-in-out;
+}
+
+.sticky-nav.scrolled {
+  border-bottom-color: gray;
 }
 
 /*
