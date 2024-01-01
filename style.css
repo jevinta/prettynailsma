@@ -83,8 +83,18 @@ h3, .slogan {
   margin-left: 10px;
 }
 
+.logoaddress {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mobilenavaddress {
+  display: none;
+}
+
 .logo {
   width: 50px;
+  margin-right: 10px;
   /* Adjust as necessary for your logo */
 }
 
@@ -192,6 +202,14 @@ h3, .slogan {
   h3, .slogan {
     font-size: 1.3em;
     font-weight: 900;
+  }
+
+  .navaddress {
+    display: none;
+  }
+
+  .mobilenavaddress {
+    display: block;
   }
 
   /* .hero-content {
