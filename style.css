@@ -235,3 +235,14 @@ h3, .slogan {
     text-align: center;
   }
 }
+
+@media (max-width: 380px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  h3, .slogan {
+    font-size: 1em;
+    font-weight: 900;
+  }
+}
