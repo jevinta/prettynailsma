@@ -1,4 +1,5 @@
-body, html {
+body, 
+html {
   margin: 0;
   padding: 0;
   font-family: 'PT Sans', sans-serif;
@@ -62,7 +63,9 @@ h3 {
 .hero {
   position: relative;
   text-align: center;
-  padding: 150px 20px;
+  height: calc(100vh - 60px); /* Adjust height based on navbar's height */
+  padding: 60px 20px;
+  /* padding: 150px 20px; */
   /* Adjust padding to account for the sticky nav */
   background-image: url('placeholder-hero.jpg');
   background-size: cover;
@@ -141,8 +144,14 @@ h3 {
     flex-direction: row;
   }
 
-  .hero-content {
+  /* .hero-content {
     padding-top: 20px;
+  }
+  */
+
+  .hero {
+      padding: 60px 20px; /* Adjust padding for mobile */
+      height: calc(100vh - 120px); /* Adjust for mobile navbar height */
   }
 
   .footer {
