@@ -103,7 +103,7 @@ h1 {
   justify-content: center;
   /* padding: 150px 20px; */
   /* Adjust padding to account for the sticky nav */
-  background-image: url('placeholder-hero.jpg');
+  background-image: url('hero.jpg');
   background-size: cover;
   background-position: center;
   background: transparent;
@@ -128,7 +128,7 @@ h1 {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url('placeholder-hero.jpg');
+  background-image: url('hero.jpg');
   background-size: cover;
   background-position: center;
   opacity: 0.5;
