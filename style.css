@@ -1,0 +1,152 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 0;
+}
+
+.appointment-btn,
+.book-appointment {
+  font-family: 'Raleway', sans-serif;
+}
+
+.slogan,
+.phone-number {
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h3 {
+  font-weight: 900;
+}
+
+.location,
+.hours,
+.contact {
+  text-align: center;
+}
+
+.sticky-nav {
+  background: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  width: 50px;
+  /* Adjust as necessary for your logo */
+}
+
+.appointment-btn {
+  background: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: 20px;
+}
+
+.hero {
+  position: relative;
+  text-align: center;
+  padding: 150px 20px;
+  /* Adjust padding to account for the sticky nav */
+  background-image: url('placeholder-hero.jpg');
+  background-size: cover;
+  background-position: center;
+  background: transparent;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.5);
+  /* White overlay with 50% opacity */
+  z-index: 1;
+  /* Ensure it's below the content */
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('placeholder-hero.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.5;
+  /* Set the opacity of the background image */
+  z-index: -1;
+  /* Place it behind the content */
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  /* Above the overlay */
+}
+
+.hero-content h1,
+.hero-content .slogan,
+.hero-content .phone-number {
+  color: #000;
+}
+
+.book-appointment {
+  background: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background: #f8f8f8;
+}
+
+.footer h3,
+.footer p {
+  margin: 5px 0;
+  position: relative;
+  z-index: 2;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: row;
+  }
+
+  .hero-content {
+    padding-top: 20px;
+  }
+
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+}
