@@ -14,7 +14,7 @@ html {
 .slogan,
 .phone-number {
   font-style: italic;
-  font-size: 1.3em;
+  font-size: 1em;
 }
 
 a {
@@ -179,6 +179,10 @@ h1 {
   .navbar {
     flex-direction: row;
     height: 60px;
+  }
+
+  h1 {
+    font-size: 3em;
   }
 
   /* .hero-content {
